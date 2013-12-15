@@ -12,4 +12,4 @@ target
 bin
 .tmp
 node_modules
-
+bower_components
