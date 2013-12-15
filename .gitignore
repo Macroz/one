@@ -10,3 +10,4 @@ target
 /lib/
 /classes/
 bin
+.tmp
