@@ -11,3 +11,5 @@ target
 /classes/
 bin
 .tmp
+node_modules
+
