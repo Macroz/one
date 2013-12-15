@@ -42,8 +42,8 @@ app.factory('GameScene', function(Common) {
         block.accessible = function(x, y) {
             if (x == gx - 1 && y == gy) return true;
             if (x == gx + 1 && y == gy) return true;
-            if (x == gx && y = gy - 1) return true;
-            if (x == gx && y = gy + 1) return true;
+            if (x == gx && y == gy - 1) return true;
+            if (x == gx && y == gy + 1) return true;
             return false;
         }
         block.draw = function(ctx) {
