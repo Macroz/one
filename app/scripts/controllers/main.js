@@ -283,7 +283,7 @@ app.factory('GameScene', function(Common) {
 
     function passivate() {
         if (scene.simulation) {
-            cancelIntervanl(scene.simulation);
+            clearInterval(scene.simulation);
         }
     }
 
