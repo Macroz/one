@@ -1,0 +1,12 @@
+.DS_Store
+target
+/lib
+/classes
+/checkouts
+*.jar
+*.class
+*~
+*jar
+/lib/
+/classes/
+bin
